@@ -4,6 +4,7 @@
  */
 
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from "motion/react";
 import {
   ChevronDown,
@@ -403,7 +404,7 @@ export default function App() {
               </div>
               <p className="text-[10px] text-brand-muted uppercase tracking-[0.2em]">Questions? <a href="mailto:arkadii.ved@gmail.com" className="text-brand-text hover:underline">Send Us an Email</a></p>
               <div className="flex gap-6">
-                <a href="#" className="text-[10px] text-brand-muted hover:text-brand-text transition-colors uppercase tracking-widest">Terms of Service</a>
+                <Link to="/terms" className="text-[10px] text-brand-muted hover:text-brand-text transition-colors uppercase tracking-widest">Terms of Service</Link>
                 <a href="#" className="text-[10px] text-brand-muted hover:text-brand-text transition-colors uppercase tracking-widest">Privacy Policy</a>
               </div>
             </div>
