@@ -143,13 +143,19 @@ export default function App() {
           </div>
 
           <div className="flex flex-col sm:flex-row items-start gap-4">
-            <a 
-              href="https://cal.com/arkadii-vedernikov-inmnif/15min?overlayCalendar=true&date=2026-02-27"
+            <a
+              href="https://cal.com/arkadii-vedernikov-inmnif/15min?overlayCalendar=true"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-brand-text text-white font-bold px-8 py-4 rounded hover:bg-brand-text/90 transition-all active:scale-[0.98] text-sm uppercase tracking-widest inline-block"
             >
               Schedule a free 15-minute call
+            </a>
+            <a
+              href="#pricing"
+              className="font-bold px-8 py-4 rounded border border-brand-border hover:border-brand-muted transition-all text-sm uppercase tracking-widest inline-block text-brand-text"
+            >
+              See pricing ↓
             </a>
           </div>
         </header>
@@ -235,7 +241,7 @@ export default function App() {
         <section className="mb-32">
           <h2 className="section-header">Good Fit</h2>
           <div className="flex flex-wrap gap-3">
-            {['Owner-operators', 'Small teams', 'Agencies', 'Service businesses', 'Heavy email coordination', 'Operations Managers', 'Finance & Admin Teams'].map((item, i) => (
+            {['Owner-operators', 'Small teams', 'Agencies', 'Service businesses', 'High-volume inboxes', 'Operations Managers', 'Finance & Admin Teams'].map((item, i) => (
               <motion.div 
                 key={item}
                 initial={{ opacity: 0, x: -20 }}
@@ -252,13 +258,16 @@ export default function App() {
         {/* Testimonials Section */}
         <section className="mb-32">
           <h3 className="section-header">The Shift to Agentic AI</h3>
+          <p className="text-sm text-brand-muted mb-16 -mt-8 max-w-xl">
+            What journalists covering AI are saying about the technology this service is built on.
+          </p>
           <div className="space-y-20">
             {testimonials.map((t, i) => (
-              <Testimonial 
-                key={i} 
-                quote={t.quote} 
-                author={t.author} 
-                source={t.source} 
+              <Testimonial
+                key={i}
+                quote={t.quote}
+                author={t.author}
+                source={t.source}
               />
             ))}
           </div>
@@ -290,7 +299,7 @@ export default function App() {
           <div className="mt-12 bg-white/50 border border-brand-border rounded-xl p-8 flex items-center gap-8 backdrop-blur-sm">
             <div className="flex-1">
               <h4 className="text-base font-bold text-brand-text uppercase tracking-tight">Reach out to our team</h4>
-              <p className="text-sm text-brand-muted mt-1">Experience deploying 50+ agents.</p>
+              <p className="text-sm text-brand-muted mt-1">Questions about fit or process? Happy to help.</p>
             </div>
             <a href="mailto:arkadii.ved@gmail.com" className="text-sm font-bold text-brand-text hover:text-brand-accent transition-colors uppercase tracking-widest">
               email us →
@@ -302,7 +311,7 @@ export default function App() {
         <section className="mb-32 py-20 bg-brand-text text-white rounded-xl text-center px-8">
           <h2 className="text-2xl font-bold mb-6 font-display italic">See if OpenClaw can actually reduce your workload.</h2>
           <a 
-            href="https://cal.com/arkadii-vedernikov-inmnif/15min?overlayCalendar=true&date=2026-02-27"
+            href="https://cal.com/arkadii-vedernikov-inmnif/15min?overlayCalendar=true"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-white text-brand-text font-bold px-12 py-5 rounded hover:bg-zinc-100 transition-all active:scale-[0.98] text-sm uppercase tracking-widest inline-block"
