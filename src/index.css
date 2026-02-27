@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "IBM Plex Sans", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-brand-bg: #F2F2F0; /* Light gray/stone background */
+  --color-brand-text: #1A1A1A; /* Charcoal */
+  --color-brand-muted: #555555;
+  --color-brand-border: #D1D1CB;
+  --color-brand-accent: #1E40AF; /* Deeper muted blue */
+}
+
+@layer base {
+  body {
+    @apply bg-brand-bg text-brand-text antialiased selection:bg-brand-text selection:text-white;
+  }
+}
+
+.code-pill {
+  @apply px-1.5 py-0.5 rounded bg-black/5 font-mono text-[0.9em] text-black/80 border border-black/10;
+}
+
+.section-header {
+  @apply text-3xl font-bold tracking-tight text-brand-text mb-12 font-display;
+}
+
+.diagram-node {
+  @apply px-3 py-2 rounded border border-brand-border bg-white text-xs font-medium shadow-sm;
+}
