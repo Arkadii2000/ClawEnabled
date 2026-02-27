@@ -405,7 +405,7 @@ export default function App() {
               <p className="text-[10px] text-brand-muted uppercase tracking-[0.2em]">Questions? <a href="mailto:arkadii.ved@gmail.com" className="text-brand-text hover:underline">Send Us an Email</a></p>
               <div className="flex gap-6">
                 <Link to="/terms" className="text-[10px] text-brand-muted hover:text-brand-text transition-colors uppercase tracking-widest">Terms of Service</Link>
-                <a href="#" className="text-[10px] text-brand-muted hover:text-brand-text transition-colors uppercase tracking-widest">Privacy Policy</a>
+                <Link to="/privacy" className="text-[10px] text-brand-muted hover:text-brand-text transition-colors uppercase tracking-widest">Privacy Policy</Link>
               </div>
             </div>
             <div className="flex items-center gap-2 px-4 py-2 rounded border border-emerald-200 bg-emerald-50">
