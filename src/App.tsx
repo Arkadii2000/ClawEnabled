@@ -288,15 +288,12 @@ export default function App() {
           </div>
 
           <div className="mt-12 bg-white/50 border border-brand-border rounded-xl p-8 flex items-center gap-8 backdrop-blur-sm">
-            <div className="size-16 rounded-full bg-zinc-100 overflow-hidden shrink-0 border border-brand-border">
-              <img src="https://picsum.photos/seed/arkadii/200/200" alt="Arkadii" className="size-full object-cover grayscale" />
-            </div>
             <div className="flex-1">
-              <h4 className="text-base font-bold text-brand-text uppercase tracking-tight">Talk to Arkadii</h4>
+              <h4 className="text-base font-bold text-brand-text uppercase tracking-tight">Reach out to our team</h4>
               <p className="text-sm text-brand-muted mt-1">Experience deploying 50+ agents.</p>
             </div>
             <a href="mailto:arkadii.ved@gmail.com" className="text-sm font-bold text-brand-text hover:text-brand-accent transition-colors uppercase tracking-widest">
-              email me →
+              email us →
             </a>
           </div>
         </section>
