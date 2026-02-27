@@ -35,16 +35,18 @@ interface PricingCardProps {
   title: string;
   price: string;
   description: string;
+  href: string;
   recommended?: boolean;
-  onClick?: () => void;
 }
 
-const PricingCard = ({ title, price, description, recommended = false, onClick }: PricingCardProps) => (
-  <button 
-    onClick={onClick}
+const PricingCard = ({ title, price, description, href, recommended = false }: PricingCardProps) => (
+  <a
+    href={href}
+    target="_blank"
+    rel="noopener noreferrer"
     className={`group flex w-full flex-col sm:flex-row items-start sm:items-center justify-between rounded-xl p-6 transition-all duration-200 text-left border ${
-      recommended 
-        ? "bg-white border-brand-accent ring-1 ring-brand-accent/20" 
+      recommended
+        ? "bg-white border-brand-accent ring-1 ring-brand-accent/20"
         : "bg-white border-brand-border hover:border-brand-muted"
     }`}
   >
@@ -63,7 +65,7 @@ const PricingCard = ({ title, price, description, recommended = false, onClick }
       <span className="text-xl font-bold text-brand-text tracking-tight">{price}</span>
       <span className="text-[10px] text-brand-muted font-bold uppercase tracking-widest group-hover:text-brand-accent transition-colors mt-1">Select plan →</span>
     </div>
-  </button>
+  </a>
 );
 
 
@@ -265,15 +267,17 @@ export default function App() {
         <section id="pricing" className="mb-32">
           <h2 className="section-header">Implementation Pricing</h2>
           <div className="space-y-4">
-            <PricingCard 
+            <PricingCard
               title="Hosted (VPS) Setup"
               price="$2,000"
               description="Fully managed cloud deployment. We host, harden, and provide 14-day hypercare."
+              href="https://buy.stripe.com/fZu00j8IQ3jy6lvbbf5gc00"
             />
-            <PricingCard 
+            <PricingCard
               title="Mac Mini In-Person"
               price="$4,000"
               description="Minneapolis area only. On-site setup, hardware provisioning, and local integration."
+              href="https://buy.stripe.com/dRm7sLe3ag6k39j9375gc01"
             />
           </div>
 
