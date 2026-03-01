@@ -301,7 +301,7 @@ export default function App() {
               <h4 className="text-base font-bold text-brand-text uppercase tracking-tight">Reach out to our team</h4>
               <p className="text-sm text-brand-muted mt-1">Questions about fit or process? Happy to help.</p>
             </div>
-            <a href="mailto:arkadii.ved@gmail.com" className="text-sm font-bold text-brand-text hover:text-brand-accent transition-colors uppercase tracking-widest">
+            <a href="mailto:arkadii@clawenabled.com" className="text-sm font-bold text-brand-text hover:text-brand-accent transition-colors uppercase tracking-widest">
               email us →
             </a>
           </div>
@@ -408,7 +408,7 @@ export default function App() {
                 </div>
                 <span className="text-xs font-bold uppercase tracking-widest text-brand-text">ClawEnabled</span>
               </div>
-              <p className="text-[10px] text-brand-muted uppercase tracking-[0.2em]">Questions? <a href="mailto:arkadii.ved@gmail.com" className="text-brand-text hover:underline">Send Us an Email</a></p>
+              <p className="text-[10px] text-brand-muted uppercase tracking-[0.2em]">Questions? <a href="mailto:arkadii@clawenabled.com" className="text-brand-text hover:underline">Send Us an Email</a></p>
               <div className="flex gap-6">
                 <Link to="/terms" className="text-[10px] text-brand-muted hover:text-brand-text transition-colors uppercase tracking-widest">Terms of Service</Link>
                 <Link to="/privacy" className="text-[10px] text-brand-muted hover:text-brand-text transition-colors uppercase tracking-widest">Privacy Policy</Link>

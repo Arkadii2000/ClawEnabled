@@ -222,7 +222,7 @@ export default function Terms() {
           <p>If you have any questions or concerns about these Terms, please contact us:</p>
           <ul className="space-y-1 list-none">
             <li className="flex gap-3"><span className="text-brand-border shrink-0">—</span><span>Website: clawenabled.com</span></li>
-            <li className="flex gap-3"><span className="text-brand-border shrink-0">—</span><span>Email: <a href="mailto:arkadii.ved@gmail.com" className="text-brand-text hover:underline">arkadii.ved@gmail.com</a></span></li>
+            <li className="flex gap-3"><span className="text-brand-border shrink-0">—</span><span>Email: <a href="mailto:arkadii@clawenabled.com" className="text-brand-text hover:underline">arkadii@clawenabled.com</a></span></li>
           </ul>
         </Section>
 

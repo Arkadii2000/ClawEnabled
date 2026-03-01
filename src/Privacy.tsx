@@ -184,7 +184,7 @@ export default function Privacy() {
           <Bullet items={[
             "Website: clawenabled.com",
           ]} />
-          <p>Email: <a href="mailto:arkadii.ved@gmail.com" className="text-brand-text hover:underline">arkadii.ved@gmail.com</a></p>
+          <p>Email: <a href="mailto:arkadii@clawenabled.com" className="text-brand-text hover:underline">arkadii@clawenabled.com</a></p>
           <p>We take privacy inquiries seriously and will respond to all requests within a reasonable timeframe.</p>
         </Section>
 
