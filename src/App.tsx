@@ -144,7 +144,7 @@ export default function App() {
 
           <div className="flex flex-col sm:flex-row items-start gap-4">
             <a
-              href="https://cal.com/arkadii-vedernikov-inmnif/15min?overlayCalendar=true"
+              href="https://cal.com/arkadii-vedernikov-e456vd/15min?overlayCalendar=true&date=2026-03-01"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-brand-text text-white font-bold px-8 py-4 rounded hover:bg-brand-text/90 transition-all active:scale-[0.98] text-sm uppercase tracking-widest inline-block"
@@ -311,7 +311,7 @@ export default function App() {
         <section className="mb-32 py-20 bg-brand-text text-white rounded-xl text-center px-8">
           <h2 className="text-2xl font-bold mb-6 font-display italic">See if OpenClaw can actually reduce your workload.</h2>
           <a 
-            href="https://cal.com/arkadii-vedernikov-inmnif/15min?overlayCalendar=true"
+            href="https://cal.com/arkadii-vedernikov-e456vd/15min?overlayCalendar=true&date=2026-03-01"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-white text-brand-text font-bold px-12 py-5 rounded hover:bg-zinc-100 transition-all active:scale-[0.98] text-sm uppercase tracking-widest inline-block"
