@@ -322,7 +322,7 @@ export default function App() {
 
         {/* FAQ */}
         <section className="mb-32">
-          <h2 className="section-header">Operational FAQ</h2>
+          <h2 className="section-header">FAQ</h2>
           <div className="border-t border-brand-border">
             {[
               {
