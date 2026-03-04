@@ -15,7 +15,7 @@ createRoot(document.getElementById('root')!).render(
         <Route path="/terms" element={<Terms />} />
         <Route path="/privacy" element={<Privacy />} />
       </Routes>
+      <Analytics />
     </BrowserRouter>
-    <Analytics />
   </StrictMode>,
 );
